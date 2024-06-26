@@ -71,4 +71,4 @@ npm install @supabase/supabase-js
 
 - [Svelte Documentation](https://kit.svelte.dev): Learn more about Svelte.
 - [Supabase Documentation](https://supabase.com/docs#reference-documentation): Explore Supabase's API and functionality.
-
+- [Pico CSS Documentation](https://picocss.com/docs): Explore Pico CSS documentation.
