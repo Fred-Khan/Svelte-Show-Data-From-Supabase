@@ -44,7 +44,7 @@ This file contains the main logic for fetching and displaying user data from Sup
 
 ## Creating Your Own
 ### Supabase
-1. Create a table called users in Supabase
+1. Create a table named users in Supabase.
 2. Create the following fields as text:
    - login
    - first_name
@@ -53,19 +53,20 @@ This file contains the main logic for fetching and displaying user data from Sup
 4. Create Row Level Security Policy (Authentication => Policies)
    - Use *SELECT	Enable read access for all users*	template
    - Save Policy
+5. You can find your project API URL and Public Key in Project Settings => API.
 
 ### Svelte
-1. Create a new Svelte Skeleton TypeScript project:
+6. Create a new Svelte Skeleton TypeScript project:
 ```bash
 npm create svelte@latest Svelte-Show-Data-From-Supabase
 cd Svelte-Show-Data-From-Supabase
 npm install
 ```
-2. Install the Supabase client library:
+7. Install the Supabase client library:
 ```bash
 npm install @supabase/supabase-js
 ```
-3. Start coding!
+8. Start coding!
 
 ## Additional Resources
 
